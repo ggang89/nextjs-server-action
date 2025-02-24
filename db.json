@@ -3,7 +3,7 @@
     {
       "userId": 2,
       "title": "운동하기",
-      "completed": false,
+      "completed": true,
       "id": "4"
     }
   ]
