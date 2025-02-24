@@ -21,3 +21,8 @@ export default function ServerComponent(){
 ```
 
 * 클라이언트 컴포넌트에서 서버 액션을 호출하려면 새 파일을 만들고 그 상단에 "use server" 지시문을 추가합니다. 파일 내에서 내보낸 모든 함수는 클라이언트 컴포넌트와 서버 컴포넌트 모두에서 재사용할 수 있는 서버 액션으로 표시됩니다:
+
+* json-server   
+: 실제 백핸드 서버를 만든 후에, 데이터를 추가, 삭제 가능하다
+  * npm i -g json-server
+  * json-server --watch db.json -p 3001
