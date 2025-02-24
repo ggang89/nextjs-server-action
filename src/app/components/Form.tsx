@@ -1,5 +1,5 @@
 import React from "react";
-import { addTodo } from "../lib/actions";
+import { addTodo } from "../../lib/actions";
 
 const Form = () => {
   return (
