@@ -11,7 +11,7 @@ export type Todo = {
 async function fetchTodos() { 
   try {
     const res = await fetch('http://localhost:3001/todos');
-    const todos: Todo = await res.json();
+    const todos: Todo[] = await res.json();
     return todos
   }catch (error) {
     if (error instanceof Error) {
